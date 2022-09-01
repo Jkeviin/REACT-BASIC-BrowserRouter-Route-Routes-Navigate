@@ -10,6 +10,8 @@ export default function Nav() {
         ({ isActive }) => (isActive ? "activado" : null)} to="/pagina2">Pagina2</NavLink>
       <NavLink className={
         ({ isActive }) => (isActive ? "activado" : null)} to="/pagina3">Pagina3</NavLink>
+      <NavLink className={
+        ({ isActive }) => (isActive ? "activado" : null)} to="/pagina4/G">Pagina4</NavLink>  
     </nav>
   )
 }
